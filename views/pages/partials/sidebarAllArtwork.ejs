@@ -1,0 +1,14 @@
+
+<article class="sidebar">
+    <h1 class="sidebar-title">Artwork on display</h1>
+    <p class="sidebar-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel pariatur doloribus asperiores quae odit consectetur soluta, delectus nulla! Nobis magnam corporis esse asperiores nulla dignissimos quos impedit reprehenderit! Minima, et!</p>
+    <div class="pixgrid clearfix">
+
+      <% allArtWorks.forEach( (artWork, index) => { %>
+
+        <img src="/images/artwork/<%= artWork %>" alt="Artwork <%= index  %> ">
+        
+      <%  }); %> 
+
+    </div>
+  </article>

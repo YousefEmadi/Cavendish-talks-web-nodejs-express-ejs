@@ -1,0 +1,29 @@
+
+  <article class="speakerslist jumbotron d-none d-sm-block">
+    <div class="container">
+      <div class="row">
+
+        <% topSpeakers.forEach(speakerItem => { %>
+            
+
+            <div class="col-md text-center">
+                <h4 class="speakerslist-title"><%= speakerItem.title %></h4>
+                <div class="speakerslist-name">with
+                  <a href="/speakers/<%=speakerItem.shortname %>"><%= speakerItem.name %></a>
+                </div>
+                <p class="speakerslist-info mt-2"> <a href="/speakers/<%=speakerItem.shortname %>">
+                    <img class="speakerslist-img rounded-circle" src="./images/speakers/<%=speakerItem.shortname %>_tn.jpg"
+                      alt="photo of <%= speakerItem.name %> ">
+                  </a>
+                </p>
+              </div>
+      
+
+        <%  }); %> 
+
+        
+        
+
+      </div>
+    </div>
+  </article>

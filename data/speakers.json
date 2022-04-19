@@ -1,0 +1,48 @@
+{
+  "speakers": [
+    {
+      "title": "Art in Full Bloom",
+      "name": "Lorenzo Garcia",
+      "shortname": "Lorenzo_Garcia",
+      "summary": "Proin id lobortis orci, mattis ornare urna. Aenean egestas sapien id sem pretium, sagittis luctus lacus ullamcorper. Nulla sed nisl vitae tortor sagittis vulputate sed ut purus. Sed enim sem, finibus at velit id, posuere varius nisl. Aliquam erat volutpat. Integer iaculis consectetur libero",
+      "description": "<p>Sed tristique cursus ante, sed aliquam eros fringilla in. Pellentesque nec mollis tortor. Proin id leo sollicitudin, bibendum erat ut, hendrerit libero. Sed sodales sapien at placerat viverra. Nunc efficitur, metus at laoreet tristique, sem dolor luctus nibh, a dictum orci felis ut justo. Aenean eu efficitur sem. Morbi eu velit libero. Maecenas nec dignissim dolor. Mauris ultrices sapien eu ex auctor dapibus.</p><p>Proin vulputate eros sit amet congue ornare. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam odio erat, ornare ut justo quis, hendrerit vulputate tortor. Duis euismod nisi magna, sit amet vulputate est consequat vel. Phasellus sit amet urna quis quam interdum suscipit. Donec dignissim sem justo. Integer nisi velit, suscipit viverra interdum eget, auctor non est. In porta nunc vitae mattis vestibulum. Nam dictum, urna et tempus consequat, ante elit suscipit nibh, vitae dapibus lorem tellus eget justo. Praesent id sem sed enim venenatis convallis. Duis non lorem nunc.</p>",
+      "artwork": [
+        "Lorenzo_Garcia_01_tn.jpg",
+        "Lorenzo_Garcia_02_tn.jpg",
+        "Lorenzo_Garcia_03_tn.jpg",
+        "Lorenzo_Garcia_04_tn.jpg"
+      ]
+    },
+    {
+      "title": "Deep Sea Wonders",
+      "name": "Hilary Goldywynn Post",
+      "shortname": "Hillary_Goldwynn",
+      "summary": "Proin id lobortis orci, mattis ornare urna. Aenean egestas sapien id sem pretium, sagittis luctus lacus ullamcorper. Nulla sed nisl vitae tortor sagittis vulputate sed ut purus. Sed enim sem, finibus at velit id, posuere varius nisl. Aliquam erat volutpat. Integer iaculis consectetur libero",
+      "description": "<p>Sed tristique cursus ante, sed aliquam eros fringilla in. Pellentesque nec mollis tortor. Proin id leo sollicitudin, bibendum erat ut, hendrerit libero. Sed sodales sapien at placerat viverra. Nunc efficitur, metus at laoreet tristique, sem dolor luctus nibh, a dictum orci felis ut justo. Aenean eu efficitur sem. Morbi eu velit libero. Maecenas nec dignissim dolor. Mauris ultrices sapien eu ex auctor dapibus.</p><p>Proin vulputate eros sit amet congue ornare. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam odio erat, ornare ut justo quis, hendrerit vulputate tortor. Duis euismod nisi magna, sit amet vulputate est consequat vel. Phasellus sit amet urna quis quam interdum suscipit. Donec dignissim sem justo. Integer nisi velit, suscipit viverra interdum eget, auctor non est. In porta nunc vitae mattis vestibulum. Nam dictum, urna et tempus consequat, ante elit suscipit nibh, vitae dapibus lorem tellus eget justo. Praesent id sem sed enim venenatis convallis. Duis non lorem nunc.</p>",
+      "artwork": [
+        "Hillary_Goldwynn_01_tn.jpg",
+        "Hillary_Goldwynn_02_tn.jpg",
+        "Hillary_Goldwynn_03_tn.jpg",
+        "Hillary_Goldwynn_04_tn.jpg",
+        "Hillary_Goldwynn_05_tn.jpg",
+        "Hillary_Goldwynn_06_tn.jpg",
+        "Hillary_Goldwynn_07_tn.jpg"
+      ]
+    },
+    {
+      "title": "The Art of Abstract",
+      "name": "Yoseph Kagan",
+      "shortname": "Yoseph_Kagan",
+      "summary": "Proin id lobortis orci, mattis ornare urna. Aenean egestas sapien id sem pretium, sagittis luctus lacus ullamcorper. Nulla sed nisl vitae tortor sagittis vulputate sed ut purus. Sed enim sem, finibus at velit id, posuere varius nisl. Aliquam erat volutpat. Integer iaculis consectetur libero",
+      "description": "<p>Sed tristique cursus ante, sed aliquam eros fringilla in. Pellentesque nec mollis tortor. Proin id leo sollicitudin, bibendum erat ut, hendrerit libero. Sed sodales sapien at placerat viverra. Nunc efficitur, metus at laoreet tristique, sem dolor luctus nibh, a dictum orci felis ut justo. Aenean eu efficitur sem. Morbi eu velit libero. Maecenas nec dignissim dolor. Mauris ultrices sapien eu ex auctor dapibus.</p><p>Proin vulputate eros sit amet congue ornare. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam odio erat, ornare ut justo quis, hendrerit vulputate tortor. Duis euismod nisi magna, sit amet vulputate est consequat vel. Phasellus sit amet urna quis quam interdum suscipit. Donec dignissim sem justo. Integer nisi velit, suscipit viverra interdum eget, auctor non est. In porta nunc vitae mattis vestibulum. Nam dictum, urna et tempus consequat, ante elit suscipit nibh, vitae dapibus lorem tellus eget justo. Praesent id sem sed enim venenatis convallis. Duis non lorem nunc.</p>",
+      "artwork": [
+        "Yoseph_Kagan_01_tn.jpg",
+        "Yoseph_Kagan_02_tn.jpg",
+        "Yoseph_Kagan_03_tn.jpg",
+        "Yoseph_Kagan_04_tn.jpg",
+        "Yoseph_Kagan_05_tn.jpg",
+        "Yoseph_Kagan_06_tn.jpg"
+      ]
+    }
+  ]
+}
