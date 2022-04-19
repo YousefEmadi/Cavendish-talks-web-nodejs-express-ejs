@@ -1,4 +1,4 @@
-Multiple-page website created with Node.js Express and EJS templates
+# Multiple-page website as a template for small projects created with Node.js Express and EJS templates
 
 <img width="758" alt="image" src="https://user-images.githubusercontent.com/63328419/164115521-b1793f6d-0d79-4d59-85fc-fb4ceca79af2.png">
 
