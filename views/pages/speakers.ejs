@@ -1,0 +1,39 @@
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-sm-8">
+        <article class="speakerslist maincontent">
+
+          <% allSpeakers.forEach(speakerItem => { %>
+
+
+
+          <div class="mb-4">
+            <h4 class="speakerslist-title"><%= speakerItem.title  %> </h4>
+            <div class="speakerslist-name">with
+              <a href="/speakers/<%= speakerItem.shortname  %>"><%= speakerItem.name  %></a>
+            </div>
+            <div class="row speakerslist-info mt-2">
+              <div class="col-sm-3">
+                <a href="/speakers/<%= speakerItem.shortname  %>">
+                  <img class="speakerslist-img rounded-circle img-fluid" src="./images/speakers/<%= speakerItem.shortname  %>_tn.jpg"
+                    alt="Photo of <%= speakerItem.name  %>">
+                </a>
+              </div>
+              <div class="col-sm-9">
+                  <%= speakerItem.summary  %>
+              </div>
+            </div>
+          </div>
+
+          <%  }); %>
+
+        </article>
+      </div>
+      <aside class="col-sm-4">
+        <%- include('./partials/sidebarallArtwork')  %> 
+      </aside>
+
+    </div>
+  </div>
+
