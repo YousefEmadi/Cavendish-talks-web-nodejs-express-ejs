@@ -1,3 +1,6 @@
+// DataDog: This line must come before importing any instrumented module.
+const tracer = require('dd-trace').init()
+
 // express server creation
 
 // step 1: create an express app instance
@@ -12,6 +15,16 @@ const SpeakersService = require('./services/SpeakerService');
 
 const feedbackService = new FeedbackService('./data/feedback.json');
 const speakersService = new SpeakersService('./data/speakers.json');
+
+
+// DataDog: customize the tracer
+const ddTracer = tracer.init({
+    env: process.env.DD_ENV,
+    service: process.env.DD_SERVICE,
+    logInjection: process.env.DD_LOGS_INJECTION,
+    profiling: process.env.DD_PROFILING_ENABLED,
+    url: process.env.DD_URL
+})
 
 const routes = require("./routes");
 
